@@ -73,27 +73,17 @@
   </keydef>
  </topichead>
  <topichead navtitle="Cover page text and variable for file names">
-  <!-- Date of approval -->
-  <keydef keys="approval-date">
-   <topicmeta>
-    <keywords>
-     <keyword>17 November 2015</keyword>
-    </keywords>
-   </topicmeta>
-  </keydef>
-  <!-- Prefix used for file names-->
-  <keydef keys="file-name-prefix">
-   <topicmeta>
-    <keywords>
-     <keyword>cn</keyword>
-    </keywords>
-   </topicmeta>
-  </keydef>
-  <!-- Publication level-->
-  <keydef keys="publication-level">
+  <keydef keys="stage">
    <topicmeta>
     <keywords>
      <keyword>Committee Note 01</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="stage-date">
+   <topicmeta>
+    <keywords>
+     <keyword>17 November 2015</keyword>
     </keywords>
    </topicmeta>
   </keydef>

@@ -5,55 +5,51 @@
   <refbody>
     <section id="this-version">
       <title>This version</title>
-      <sl outputclass="no-indent">
-        <sli><xref keyref="this-html" outputclass="no-italics"></xref>
-          (Authoritative)</sli>
-        <sli><xref keyref="this-pdf" outputclass="no-italics"></xref></sli>
+      <sl>
+        <sli><xref keyref="this-html"/> (Authoritative)</sli>
+        <sli><xref keyref="this-pdf" outputclass="no-italics"/></sli>
       </sl>
     </section>
     <section id="previous-version">
       <title>Previous version</title>
       <!--<p>N/A</p>-->
-      <sl outputclass="no-indent">
-        <sli><xref keyref="previous-html"><keyword keyref="previous-html"/></xref> (Authoritative
-          version) </sli>
-        <sli><xref keyref="previous-pdf"><keyword keyref="previous-pdf"/></xref></sli>
+      <sl>
+        <sli><xref keyref="previous-html"/> (Authoritative version) </sli>
+        <sli><xref keyref="previous-pdf"/></sli>
       </sl>
     </section>
     <section id="latest-version">
       <title>Latest version</title>
-      <sl outputclass="no-indent">
+      <sl>
         <sli>
-          <xref keyref="latest-html" outputclass="no-italics"></xref>
-          (Authoritative)</sli>
-        <sli><xref keyref="latest-pdf" outputclass="no-italics"></xref></sli>
+          <xref keyref="latest-html"/> (Authoritative)</sli>
+        <sli><xref keyref="latest-pdf"/></sli>
       </sl>
     </section>
     <section id="technical-committee">
       <title>Technical Committee</title>
       <p><xref href="https://www.oasis-open.org/committees/dita/" format="html" scope="external"
-          outputclass="no-italics">OASIS Darwin Information Typing Architecture (DITA) TC</xref></p>
+          >OASIS Darwin Information Typing Architecture (DITA) TC</xref></p>
     </section>
     <section id="chair">
       <title>Chair</title>
       <p>Kristen James Eberlein (<xref format="mailto" href="mailto:kris@eberleinconsulting.com"
-          scope="external" outputclass="no-italics">kris@eberleinconsulting.com</xref>), <xref
-          href="http://eberleinconsulting.com/" format="html" scope="external"
-          outputclass="no-italics">Eberlein Consulting LLC</xref></p>
+          scope="external">kris@eberleinconsulting.com</xref>), <xref
+          href="http://eberleinconsulting.com/" format="html" scope="external">Eberlein Consulting
+          LLC</xref></p>
     </section>
     <section id="editors">
       <title>Editors</title>
       <sl outputclass="no-indent">
         <sli>Carlos Evia (<xref format="mailto" href="mailto:cevia@vt.edu" scope="external"
-            outputclass="no-italics">cevia@vt.edu</xref>), <xref
-            href="http://www.vt.edu/" format="html" scope="external"
-            outputclass="no-italics">Virginia Tech</xref></sli>
+            >cevia@vt.edu</xref>), <xref href="http://www.vt.edu/" format="html" scope="external"
+            >Virginia Tech</xref></sli>
         <sli>Kristen James Eberlein (<xref format="mailto" href="mailto:kris@eberleinconsulting.com"
-            scope="external" outputclass="no-italics">kris@eberleinconsulting.com</xref>), <xref
-            href="http://eberleinconsulting.com/" format="html" scope="external"
-            outputclass="no-italics">Eberlein Consulting LLC</xref></sli>
+            scope="external">kris@eberleinconsulting.com</xref>), <xref
+            href="http://eberleinconsulting.com/" format="html" scope="external">Eberlein Consulting
+            LLC</xref></sli>
         <sli>Alan Houser (<xref format="mailto" href="mailto:arh@groupwellesley.com"
-          scope="external" outputclass="no-italics">arh@groupwellesley.com</xref>), Individual member</sli>
+            scope="external">arh@groupwellesley.com</xref>), Individual member</sli>
         
       </sl>
     </section>
@@ -62,7 +58,7 @@
       <p>This document is part of a work product that also includes:</p>
       <ul>
         <li>ZIP file that contains the DITA source for this document. <xref keyref="this-dita"
-            outputclass="no-italics"></xref></li>
+          /></li>
         <li>ZIP files that contains the grammar files for Lightweight DITA. <xref
             keyref="this-grammars"/></li>
         <li>ZIP file that contains a sample LwDITA document. <xref keyref="this-samples"/></li>
@@ -104,7 +100,8 @@
         comments to the TC’s public comment list, after subscribing to it by following the
         instructions at the “Send A Comment” button on the TC’s web page at <xref
           href="https://www.oasis-open.org/committees/comments/index.php?wg_abbrev=dita"
-          format="html" scope="external" outputclass="no-italics">https://www.oasis-open.org/committees/comments/index.php?wg_abbrev=dita</xref>.</p>
+          format="html" scope="external"
+          >https://www.oasis-open.org/committees/comments/index.php?wg_abbrev=dita</xref>.</p>
     </section>
     <section id="citation-format">
       <title>Citation format</title>
@@ -114,9 +111,8 @@
           <dt>[LwDITA-intro-v1.0]</dt>
           <dd><cite>Lightweight DITA: An Introduction Version 1.0</cite>. Edited by Carlos Evia,
             Kristen James Eberlein, <ph rev="review-2">and Alan Houser</ph>. <keyword
-              keyref="approval-date"/>. OASIS <keyword keyref="publication-level"/>. <xref
-              keyref="this-html" outputclass="no-italics"></xref>.
-            Latest version: <xref keyref="latest-html" outputclass="no-italics"></xref>.</dd>
+              keyref="stage-date"/>. OASIS <keyword keyref="stage"/>. <xref keyref="this-html"/>.
+            Latest version: <xref keyref="latest-html"/>.</dd>
         </dlentry>
       </dl>
     </section>
