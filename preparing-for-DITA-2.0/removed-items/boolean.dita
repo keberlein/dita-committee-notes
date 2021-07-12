@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="boolean">
+    <title><xmlelement>boolean</xmlelement></title>
+    <shortdesc>The deprecated <xmlelement>boolean</xmlelement> element is removed from DITA 2.0. It
+        can be replaced with the <xmlelement>state</xmlelement> element.</shortdesc>
+    <conbody>
+        <p>The <xmlelement>boolean</xmlelement> element has been deprecated since DITA 1.0. It
+            typically is used in topics, although the element also can appear as a child of
+                <xmlelement>ph</xmlelement> in DITA maps.</p>
+        <section>
+            <title>DITA 1.3 markup</title>
+            <p>The following code sample shows how the <xmlelement>boolean</xmlelement> element is
+                used in DITA 1.x releases.</p>
+            <codeblock>She said &lt;boolean state="yes"/> when I asked her to marry me!</codeblock>
+        </section>
+        <section>
+            <title>DITA 2.0 markup</title>
+            <p>The following code sample shows how the <xmlelement>boolean</xmlelement> element can
+                be replaced by the <xmlelement>state</xmlelement> element in DITA 2.0.</p>
+            <codeblock>She said &lt;state name="boolean" value="yes"/> when I asked her to marry me!</codeblock>
+        </section>
+    </conbody>
+</concept>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Migration aids</title>
+    <topicref href="migration-aids.dita">
+        <topicref href="checklists.dita"/>
+        <topicref href="schematron-rules.dita"/>
+        <topicref href="dita-ot-plug-ins.dita"/>
+        <topicref href="xslt-scripts.dita"/>
+    </topicref>
+</map>

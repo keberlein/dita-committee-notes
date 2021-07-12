@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="print">
+    <title><xmlatt>print</xmlatt></title>
+    <shortdesc>The deprecated <xmlatt>navtitle</xmlatt> attribute is removed from DITA 2.0. It can
+        be replaced with the <xmlelement>navtitle</xmlelement> element.</shortdesc>
+    <conbody>
+        <p>The <xmlatt>navtitle</xmlatt>attribute is available on the
+                <xmlelement>topicref</xmlelement> element and specializations of
+                <xmlelement>topicref</xmlelement>; the attribute has been deprecated since DITA 1.3. </p>
+        <p>The <xmlelement>topicref</xmlelement> element is available only in DITA maps.</p>
+        <section>
+            <title>DITA 1.3 markup</title>
+            <p>The following code sample shows how the <xmlatt>print</xmlatt> attribute is used in
+                DITA 1.x releases.</p>
+            <codeblock>&lt;map>
+  ...
+  &lt;topicref href="foo.dita" print="no">
+  ...
+&lt;/map></codeblock>
+        </section>
+        <section>
+            <title>DITA 2.0 markup</title>
+            <p>The following code sample shows how the <xmlatt>print</xmlatt> attribute can be
+                replaced by the <xmlatt>deliveryTarget</xmlatt> attribute in DITA 2.0.</p>
+            <codeblock>&lt;map>
+  ...
+  &lt;topicref href="foo.dita" deliveryTarget="Web-only">
+  ...
+&lt;/map></codeblock>
+            <p>The above code sample assumes that a DITAVAL file is used to exclude <codeph>topicref
+                    deliveryTarget="Web-only"/></codeph> when a print deliverable is published. A
+                subject scheme map can be used to define permitted values for the
+                    <xmlatt>deliveryTarget</xmlatt> attribute.</p>
+        </section>
+    </conbody>
+</concept>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Removed items</title>
+    <topicref href="removed-items.dita">
+        <topicref href="deprecated-items.dita">
+            <topicref href="alt.dita"/>
+            <topicref href="boolean.dita"/>
+            <topicref href="longdescref.dita"/>
+            <topicref href="navtitle.dita"/>
+            <topicref href="nbsp.dita"/>
+            <topicref href="print.dita"/>
+            <topicref href="title.dita"/>
+        </topicref>
+        <topicref href="reserved-for-future-use-items.dita">
+            <topicref href="collection-type.dita"/>
+            <topicref href="indextermref.dita"/>
+            <topicref href="locktitle-on-topichead-and-topicgroup.dita"/>
+            <topicref href="refcols.dita"/>
+        </topicref>
+        <topicref href="defined-by-mistake-items.dita">
+            <topicref href="collection-type-tree.dita"/>
+            <topicref href="keyref-on-navref.dita"/>
+            <topicref href="query.dita"/>
+        </topicref>
+    </topicref>
+</map>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="keyref_on_navref">
+    <title><xmlatt>keyref</xmlatt> on <xmlelement>navref</xmlelement></title>
+    <shortdesc>The <xmlatt>keyref</xmlatt> attribute on the <xmlelement>navref</xmlelement> element
+        is removed in DITA 2.0. </shortdesc>
+    <!--<conbody><p>The <xmlatt>keyref</xmlatt> attribute on the <xmlelement>navref</xmlelement> element was unintentionally defined in the original DITA grammar files and was retained for backwards compatibility.</p></conbody>-->
+</concept>

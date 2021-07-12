@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="deprecated_items">
+    <title>Deprecated items</title>
+    <shortdesc>Deprecated items that are removed from DITA 2.0 can be replaced with alternate
+        markup.</shortdesc>
+</concept>

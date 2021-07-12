@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="navtitle">
+    <title><xmlatt>navtitle</xmlatt></title>
+    <shortdesc>The deprecated <xmlatt>navtitle</xmlatt> attribute is removed from DITA 2.0. It can
+        be replaced with the <xmlelement>navtitle</xmlelement> element.</shortdesc>
+    <conbody>
+        <p>The <xmlatt>navtitle</xmlatt>attribute is available on the
+                <xmlelement>topicref</xmlelement> element and specializations of
+                <xmlelement>topicref</xmlelement>; the attribute has been deprecated since DITA 1.2. </p>
+        <p>The <xmlelement>topicref</xmlelement> element is available only in DITA maps.</p>
+        <section>
+            <title>DITA 1.3 markup</title>
+            <p>The following code sample shows how the <xmlatt>navtitle</xmlatt> attribute is used
+                in DITA 1.x releases.</p>
+            <codeblock>&lt;subjectScheme>
+  &lt;subjectdef keys="os" navtitle="Operating system">
+    &lt;subjectdef keys="linux" navtitle="Linux">
+      &lt;subjectdef keys="redhat" navtitle="RedHat Linux"/>
+      &lt;subjectdef keys="suse" navtitle="SuSE Linux"/>
+    &lt;/subjectdef>
+    &lt;subjectdef keys="windows" navtitle="Windows"/>
+    &lt;subjectdef keys="zos" navtitle="z/OS"/>
+  &lt;/subjectdef>
+  &lt;enumerationdef>
+    &lt;attributedef name="platform"/>
+    &lt;subjectdef keyref="os"/>
+  &lt;/enumerationdef>
+&lt;/subjectScheme></codeblock>
+        </section>
+        <section>
+            <title>DITA 2.0 markup</title>
+            <p>The following code sample shows how the <xmlatt>alt</xmlatt> attribute can be
+                replaced by the <xmlelement>alt</xmlelement> element in DITA 2.0.</p>
+            <codeblock>&lt;subjectScheme>
+    &lt;subjectdef keys="os">
+        &lt;topicmeta>
+            &lt;navtitle>Operating systems&lt;/navtitle>
+        &lt;/topicmeta>
+        &lt;subjectdef keys="linux">
+            &lt;topicmeta>
+                &lt;navtitle>Linux&lt;/navtitle>
+            &lt;/topicmeta>
+            &lt;subjectdef keys="redhat">
+                &lt;topicmeta>
+                    &lt;navtitle>RedHat Linux&lt;/navtitle>
+                &lt;/topicmeta>
+            &lt;/subjectdef>
+            &lt;subjectdef keys="suse">
+                &lt;topicmeta>
+                    &lt;navtitle>SUSE Linux&lt;/navtitle>
+                &lt;/topicmeta>
+            &lt;/subjectdef>
+        &lt;/subjectdef>
+        &lt;subjectdef keys="windows">
+            &lt;topicmeta>
+                &lt;navtitle>Windows&lt;/navtitle>
+            &lt;/topicmeta>
+        &lt;/subjectdef>
+        &lt;subjectdef keys="zos">
+            &lt;topicmeta>
+                &lt;navtitle>z/OS&lt;/navtitle>
+            &lt;/topicmeta>
+        &lt;/subjectdef>
+    &lt;/subjectdef>
+    &lt;enumerationdef>
+        &lt;attributedef name="platform"/>
+        &lt;subjectdef keyref="os"/>
+    &lt;/enumerationdef>
+&lt;/subjectScheme></codeblock>
+        </section>
+    </conbody>
+</concept>

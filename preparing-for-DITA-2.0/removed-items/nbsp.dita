@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="nbsp">
+    <title><textentity>nbsp</textentity></title>
+    <shortdesc>The deprecated <textentity>nbsp</textentity>entity is removed from DITA 2.0. It can
+        be replaced with the <textentity>#160</textentity> entity.</shortdesc>
+    <conbody>
+        <p>The <textentity>nbsp</textentity>entity was deprecated in DITA 1.2. The entity was
+            available for use in topics and specializations of topics.</p>
+        <section>
+            <title>DITA 1.3 markup</title>
+            <p>The following code sample shows how the <textentity>nbsp</textentity>entity is used
+                in DITA 1.x releases.</p>
+            <codeblock>&lt;p>When using &lt;tm owner="Acme">Feline&amp;nbsp;Greenies&lt;/tm> pill pockets,
+you might need to keep them secured in order to prevent your cat from absconding 
+with the delicious morsels. A mason jar with a tight lid will work well.&lt;/p>
+</codeblock>
+        </section>
+        <section>
+            <title>DITA 2.0 markup</title>
+            <p>The following code sample shows how the <textentity>nbsp</textentity>entity can be
+                replaced by the <textentity>#160</textentity> entity in DITA 2.0.</p>
+            <codeblock>&lt;p>When using &lt;tm owner="Acme">Feline&amp;#160;Greenies&lt;/tm> pill pockets,
+you might need to keep them secured in order to prevent your cat from absconding 
+with the delicious morsels. A mason jar with a tight lid will work well.&lt;/p>
+</codeblock>
+        </section>
+    </conbody>
+</concept>

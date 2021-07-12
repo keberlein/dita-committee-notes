@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="defined_by_mistake_items">
+    <title>Defined-by-mistake items</title>
+    <shortdesc>Items that were defined by mistake and retained only to maintain backwards
+        compatibility are removed in DITA 2.0.</shortdesc>
+</concept>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="locktitle-on-topichead-and-topicgroup">
+    <title><xmlatt>locktitle</xmlatt> on <xmlelement>topichead</xmlelement> and
+            <xmlelement>topicgroup</xmlelement></title>
+    <shortdesc>The <xmlatt>locktitle</xmlatt>attribute on the <xmlelement>topichead</xmlelement> and
+                        <xmlelement>topicgroup</xmlelement> elements is removed from DITA
+                2.0.</shortdesc>
+        <!--<conbody><p>The <xmlatt>collection-type</xmlatt> attribute on <xmlelement>relcolspec</xmlelement> and <xmlelement>reltable</xmlelement> elements was designated in DITA 1.x as <q>undefined and reserved for future use</q>.</p></conbody>-->
+</concept>

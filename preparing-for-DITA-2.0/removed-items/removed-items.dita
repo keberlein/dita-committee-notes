@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="removed_items">
+    <title>Removed items</title>
+    <shortdesc>DITA 2.0 removes items (attributes, attribute values, elements, and entities) that
+        were previously deprecated, designated as <q>reserved for future use</q>, or defined by
+        mistake and retained only to maintain backwards compatibility.</shortdesc>
+</concept>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="indextermref">
+    <title><xmlelement>indextermref</xmlelement></title>
+    <shortdesc>The <xmlelement>indextermref</xmlelement> element is removed from DITA
+        2.0.</shortdesc>
+    <!--<conbody><p>The <xmlelement>indextermref</xmlelement> element was designated in DITA 1.x as <q>reserved for future use</q>.</p></conbody>-->
+</concept>

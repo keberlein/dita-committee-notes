@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>DITA 2.0: A backwards-incompatible release</title>
+    <topicref href="dita-2-0-a-backwards-incompatible-release.dita">
+        <topicref href="reduction-of-technical-debt.dita"/>
+        <topicref href="removal-of-items.dita"/>
+        <topicref href="improvement-of-design.dita"/>
+    </topicref>
+</map>

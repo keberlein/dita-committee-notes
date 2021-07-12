@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="collection_type_tree">
+    <title><codeph><xmlatt>collection-type</xmlatt>="tree"</codeph></title>
+    <shortdesc>The value <keyword>tree</keyword> for the <xmlatt>collection-type</xmlatt> attribute
+        on the <xmlelement>linklist</xmlelement> and <xmlelement>linkpool</xmlelement> elements is
+        not available in DITA 2.0.</shortdesc>
+</concept>

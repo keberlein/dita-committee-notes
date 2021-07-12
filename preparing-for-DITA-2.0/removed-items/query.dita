@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="query">
+    <title><xmlatt>query</xmlatt></title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p>The <xmlatt>query</xmlatt> attribute on the <xmlelement>link</xmlelement> and
+                <xmlelement>topicref</xmlelement> elements is removed from DITA 2.0.</p>
+    </conbody>
+</concept>

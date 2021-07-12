@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="collection-type">
+    <title><xmlatt>collection-type</xmlatt> on <xmlelement>relcolspec</xmlelement> and
+            <xmlelement>reltable</xmlelement></title>
+    <shortdesc>The <xmlatt>collection-type</xmlatt> attribute on the
+            <xmlelement>relcolspec</xmlelement> and <xmlelement>reltable</xmlelement> elements is
+        removed from DITA 2.0.</shortdesc>
+    <!--<conbody><p>The <xmlatt>collection-type</xmlatt> attribute on <xmlelement>relcolspec</xmlelement> and <xmlelement>reltable</xmlelement> elements was designated in DITA 1.x as <q>undefined and reserved for future use</q>.</p></conbody>-->
+</concept>

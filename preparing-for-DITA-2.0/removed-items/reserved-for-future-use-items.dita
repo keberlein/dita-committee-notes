@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="reserved_for_future_use_items">
+    <title>&quot;Reserved for future use&quot; items</title>
+    <shortdesc>Certain items were designated in the DITA 1.x specifications as <q>reserved for
+            future use</q>. These items are removed in DITA 2.0.</shortdesc>
+    <conbody>
+        <p>There is no migration path for items that were designated as <q>reserved for future
+                use</q>. The OASIS DITA Technical Committee cannot offer migration advice for items
+            that were never formally defined, as we cannot guess how implementations might have used
+            these items.</p>
+    </conbody>
+</concept>

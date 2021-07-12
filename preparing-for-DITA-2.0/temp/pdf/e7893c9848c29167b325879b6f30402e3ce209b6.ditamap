@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Git\dita-committee-notes\preparing-for-DITA-2.0\temp\pdf?><?workdir-uri file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/temp/pdf/?><?path2project ..\?><?path2project-uri ../?><?path2rootmap-uri ../?><?doctype-public -//OASIS//DTD DITA Subject Scheme Map//EN?><?doctype-system subjectScheme.dtd?><subjectScheme xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" processing-role="resource-only" toc="no" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (map subjectScheme) a(props deliveryTarget) (topic hazard-d) (topic hi-d) (topic ut-d)" class="- map/map subjectScheme/subjectScheme " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectScheme:1;3:16" cascade="merge" specializations="@props/deliveryTarget">
+    <topicmeta class="- map/topicmeta " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="topicmeta:1;4:16">
+        <shortdesc class="- map/shortdesc " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="shortdesc:1;5:20">This is a starter subjectScheme map. Modify the values to suit your needs. The
+            only values that you should respect are those for @outputclass values (these are needed
+            by the stylesheets) and those for @platform (specifications only).</shortdesc>
+    </topicmeta>
+    
+    
+    <subjectdef keys="values-audience-draft-comment" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:1;11:54">
+        <subjectdef keys="spec-editors" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:2;12:42"/>
+        <subjectdef keys="tc-reviewers" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:3;13:42"/>
+    </subjectdef>
+    <subjectdef keys="values-otherprops" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:4;15:42">
+        <subjectdef keys="examples" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:5;16:38"/>
+    </subjectdef>
+    <subjectdef keys="values-outputclass" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:6;18:43">
+        <subjectdef keys="cover" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:7;19:35"/>
+        <subjectdef keys="notices" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:8;20:37"/>
+        <subjectdef keys="RFC-2119" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:9;21:38"/>
+        <subjectdef keys="documentStage" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:10;22:43"/>
+        <subjectdef keys="stageDate" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:11;23:39"/>
+    </subjectdef>
+       <subjectdef keys="values-platform" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:12;25:43">
+        <subjectdef keys="dita" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:13;26:34"/>
+        <subjectdef keys="lwdita" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:14;27:36"/>
+        <subjectdef keys="dita-tc-publishing" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:15;28:48"/>
+        <subjectdef keys="external-publishing-engine" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:16;29:56"/>
+    </subjectdef>
+    <subjectdef keys="values-revisions" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:17;31:41">
+        <subjectdef keys="2.0" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:18;32:33"/>
+        <subjectdef keys="tc-review" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:19;33:39"/>
+    </subjectdef>
+    
+    
+    <enumerationdef class="- map/topicref subjectScheme/enumerationdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="enumerationdef:1;37:21">
+        <elementdef name="draft-comment" translate="no" class="- topic/data subjectScheme/elementdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="elementdef:1;38:43"/>
+        <attributedef name="audience" translate="no" class="- topic/data subjectScheme/attributedef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="attributedef:1;39:40"/>
+        <subjectdef keyref="values-audience-draft-comment" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:20;40:61"/>
+        <defaultSubject keyref="spec-editors" class="- map/topicref subjectScheme/defaultSubject " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="defaultSubject:1;41:48"/>
+    </enumerationdef>
+    
+    
+    <enumerationdef class="- map/topicref subjectScheme/enumerationdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="enumerationdef:2;45:21">
+        <attributedef name="otherprops" translate="no" class="- topic/data subjectScheme/attributedef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="attributedef:2;46:42"/>
+        <subjectdef keyref="values-otherprops" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:21;47:49"/>
+    </enumerationdef>
+    <enumerationdef class="- map/topicref subjectScheme/enumerationdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="enumerationdef:3;49:21">
+        <attributedef name="outputclass" translate="no" class="- topic/data subjectScheme/attributedef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="attributedef:3;50:43"/>
+        <subjectdef keyref="values-outputclass" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:22;51:50"/>
+    </enumerationdef>
+    <enumerationdef class="- map/topicref subjectScheme/enumerationdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="enumerationdef:4;53:21">
+        <attributedef name="platform" translate="no" class="- topic/data subjectScheme/attributedef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="attributedef:4;54:40"/>
+        <subjectdef keyref="values-platform" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:23;55:47"/>
+    </enumerationdef>
+    <enumerationdef class="- map/topicref subjectScheme/enumerationdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="enumerationdef:5;57:21">
+        <attributedef name="rev" translate="no" class="- topic/data subjectScheme/attributedef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="attributedef:5;58:35"/>
+        <subjectdef keyref="values-revisions" class="- map/topicref subjectScheme/subjectdef " xtrf="file:/C:/Git/dita-committee-notes/preparing-for-DITA-2.0/resources/subjectScheme.ditamap" xtrc="subjectdef:24;59:48"/>
+    </enumerationdef>
+</subjectScheme>
